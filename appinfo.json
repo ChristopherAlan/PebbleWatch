@@ -10,32 +10,28 @@
         "media": [
             {
                 "file": "images/bg-solar6.png",
-                "menuIcon": true,
                 "name": "IMAGE_SOLAR_BACKGROUND",
                 "type": "png"
             },
             {
-                "file": "images/leaf-dith.png",
-                "name": "IMAGE_LEAF_BACKGROUND",
-                "type": "png"
-            },
-            {
-                "file": "fonts/sanfranciscodisplay-regular.ttf",
-                "name": "FONT_SANFRAN_D_REG_48",
+                "characterRegex": "[0-9:.]",
+                "file": "fonts/sanfranciscodisplay-ultralight.ttf",
+                "name": "FONT_SANFRAN_ULIGHT_48",
                 "type": "font"
             },
             {
+                "characterRegex": "[A-Za-z]",
                 "file": "fonts/sanfranciscodisplay-regular.ttf",
-                "name": "FONT_SANFRAN_D_REG_33",
+                "name": "FONT_SANFRAN_D_REG_14",
                 "type": "font"
             }
         ]
     },
-    "shortName": "\uf8ff Watch",
+    "shortName": "Solar Watch",
     "uuid": "4a26f9d3-73ce-46ce-8123-099930864a39",
     "versionCode": 1,
     "versionLabel": "1.0",
     "watchapp": {
-        "watchface": false
+        "watchface": true
     }
 }
